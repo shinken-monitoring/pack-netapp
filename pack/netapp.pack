@@ -5,7 +5,20 @@
 
 "path":"storage/",
 
-"macros":{}
+"macros":{
+         "_CPU_WARN": {"type":"percent",
+                                "description": "Warning level for the CPU usage"
+                             },
+         "_CPU_CRIT": {"type":"percent",
+                                "description": "Critical level for the CPU usage"
+                             },
+         "_DISK_WARN": {"type":"percent",
+                                "description": "Warning level for used disk space"
+                             },
+         "_DISK_CRIT": {"type":"percent",
+                                "description": "Critical level for used disk space"
+                             },
+         }
 
 
 }
