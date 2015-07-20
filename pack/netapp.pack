@@ -18,7 +18,30 @@
          "_DISK_CRIT": {"type":"percent",
                                 "description": "Critical level for used disk space"
                              },
+         "_NFSIO_WARN": {"type":"integer",
+                                "description": "Warning value for NFS ops"
+                             },
+         "_NFSIO_CRIT": {"type":"integer",
+                                "description": "Critical value for NFS ops"
+                             },
+         "_ISCSIIO_WARN": {"type":"integer",
+                                "description": "Warning value for iSCSI ops"
+                             },
+         "_ISCSIIO_CRIT": {"type":"integer",
+                                "description": "Critical value for iSCSI ops"
+                             },
+         "_FCPIO_WARN": {"type":"integer",
+                                "description": "Warning value for FCP ops"
+                             },
+         "_FCPIO_CRIT": {"type":"integer",
+                                "description": "Critical value for FCP ops"
+                             },
+         "_CIFSIO_WARN": {"type":"integer",
+                                "description": "Warning value for CIFS ops"
+                             },
+         "_CIFSIO_CRIT": {"type":"integer",
+                                "description": "Critical value for CIFS ops"
+                             }
          }
-
 
 }
