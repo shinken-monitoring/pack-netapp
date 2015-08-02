@@ -13,14 +13,17 @@
 	  {
 		"name": "Imrane Dessai",
 		"email": "dessai.imrane@gmail.com"
-	  } 
+	  },
+	  {
+		"name": "Romain Therrat",
+		"email": "romain42@gmail.com"
+	  }
 	],
 	"repository": "https://github.com/shinken-monitoring/pack-netapp",
 	"keywords": [
 	  "pack",
 	  "storage",
 	  "netapp"
-	  
 	],
 	"dependencies": {
 	  "shinken": ">=1.4"
